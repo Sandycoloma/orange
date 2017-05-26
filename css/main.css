@@ -1,5 +1,6 @@
 *{
 	font-family: 'Open Sans', sans-serif;
+	background-color: 
 }
 .navbar{
 	background-color: orange;
@@ -9,9 +10,6 @@
 	position: relative;
 }
 
-
-	/*position: relative;*/
-	/*background-color: white;*/
 .logo{
 	margin: 20px 0 00px 0;
 	padding: 0px 0 40px 70px;
@@ -19,7 +17,6 @@
 	text-decoration: none;
 }
 .logo a{
-	/*margin-left: 0px;*/
 	padding-left: 70px;	
 	font-size: 20px;
 	text-decoration: none;
@@ -34,7 +31,6 @@
 	margin-top: 20px;
 	width: 50px;
 	height: 50px;
-
 
 }
 div.logo {
@@ -55,7 +51,6 @@ nav li{
 	display: inline;
 	padding-right: 20px;
 
-
 }
 li{
 	margin:0 10px 0 20px;
@@ -66,7 +61,6 @@ li{
 	text-align: right;
 	color: white;
 
-
 }
 .list a{
 
@@ -74,9 +68,6 @@ li{
 	color: white;
 	font-size: 15px; 
 	font-weight: 200px;
-
-
-
 	
 }
 .search{
@@ -123,23 +114,64 @@ li{
 	margin-top: 200px;
 	margin-left: 600px;
 	font-size: 40px;
+	font-weight: 200;
+	color: orange;
 	}
 
-.info{
+/*.info{
 	color: orange;
 	font-weight: 300; 
-
-
+	JUst noticed I had to .info classes e
+*/
 }
 /*to separate atributes in one element use span, and toget more than one span in the code ad id to each span*/
 
-
-#o {
-	font-weight: 400;
+#o{
+	font-weight: 700;
 
 }
 	
 #p{
 	font-weight: 400;
     color: turquoise;
+}
+
+button{
+
+	/*margin: 20px 30px;*/
+	text-decoration: none;
+	font-weight: 300;
+	font-size: 15px;
+	border-width: 0;
+    padding: 15px 25px;
+
+}
+
+button a{ 
+	text-decoration: none;
+	color: white;
+}
+
+button.one {
+
+	margin: 40px 30px;	
+    background-color: orange;
+    color: white;
+   
+}
+
+button.dos {
+	margin: 15px 30px;
+	background-color: turquoise;
+	color: white;
+}
+
+.footer{
+	display: inline block; 
+	height: 200px;
+	width:45%;
+	background-color: turquoise;
+	position: absolute;
+	
+
 }
